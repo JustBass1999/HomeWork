@@ -1,0 +1,39 @@
+.some-text {
+    border-bottom: 1px solid black;
+    font-family: "Open Sans", "Arial", serif;
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.block1 {
+    border-bottom: 1px solid black;
+    font-family: "Times New Roman";
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+.block2 {
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+    font-style: normal;
+    text-align: center;
+}
+
+.block3 {
+    font-family: "Times New Roman";
+    font-style: normal;
+    word-spacing: 30px;
+    color: rgb(21, 2, 104);
+    text-decoration: overline;
+    text-decoration-style: wavy;
+}
+
+.block4 {
+    letter-spacing: 5px;
+    font-family: "Times New Roman";
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
