@@ -1,0 +1,4 @@
+ПОЛЕЗНЫЕ ССЫЛКИ:
+
+https://github.com/tibold/svg-explorer-extension/releases - приложение для windows, позволяющее видеть превью svg-изображений (файл svg_see_x64.exe)
+https://www.figma.com/ - графический редактор Figma
