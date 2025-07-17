@@ -83,8 +83,8 @@ const users = [
     }
 ]
 let regularUsersCount = 0
-for (let i = 0; i < users.length; regularUsersCount++) {
+for (let i = 0; i < users.length; i++) {
     if (users[i].isAdmin == false) {
-        console.log(regularUsersCount)
+        console.log(regularUsersCount + 1)
     }
 }
