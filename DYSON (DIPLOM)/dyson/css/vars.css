@@ -1,0 +1,15 @@
+:root {
+    /* font-family*/
+    --font-family: Open Sans, sans-serif;
+    /* colors */
+    --accent-color: #68ae5c;
+    --review-color: #c5358c;
+    --none-color: #dc5b5b;
+    --text-color: #111111;
+    --nav-color: #000000;
+    --main-color: #DDDDDD;
+    --content-color: #FFFFFF;
+    /* container */
+    --container-width: 1920px;
+    --container-padding: 100px;
+}
