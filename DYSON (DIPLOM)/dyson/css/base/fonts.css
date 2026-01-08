@@ -1,0 +1,26 @@
+@font-face {
+    font-family: OpenSans;
+    src: local("OpenSans Light"), ("OpenSans-Light"),
+    url("/dyson/fonts/OpenSans-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src:  local("OpenSans Regular"), ("OpenSans-Regular"),
+    url("/dyson/fonts/OpenSans-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: NAMU;
+    src: local("NAMU Pro"), ("NAMU-Pro"),
+    url("/dyson/fonts/namu/NAMU-Pro.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

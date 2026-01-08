@@ -1,0 +1,18 @@
+.page {
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: var(--text-color);
+    width: 1920px;
+}
+
+.page__body {
+    background-color: var(--main-color);
+    min-width: 320px;
+    min-height: 200vh;
+}
+
+.container {
+    width: min(var(--container-width), 100% - var(--container-padding) * 2);
+    height: 90px;
+    margin: 0 auto;
+}

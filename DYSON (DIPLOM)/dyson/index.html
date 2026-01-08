@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/base/index.css">
     <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
     <title>Dyson</title>
 </head>
@@ -13,9 +13,10 @@
     <header class="header">
         <div class="container header__container">
             <a class="logo header__logo" href="#">
-                <img src="../images/icons/menu-hambuger.svg" class="logo burger__icon" width="50" height="50"
-                    alt="Бургер Дайсон">
-                <img src="../images/titles/лого.svg" class="logo dyson__title" width="183" height="77" alt="">
+                <img src="/dyson/images/icons/menu-hambuger.svg" width="50" height="50" alt="">
+            </a>
+            <a class="logo header__title" href="">
+                <img src="/dyson/images/titles/лого.svg" width="183" height="77" alt="">
             </a>
             <nav class="menu header__menu" aria-label="Главное меню">
                 <ul class="menu__list">
@@ -26,12 +27,10 @@
                     <li class="menu__item"><a class="menu__link" href="#sertificates">Сертификаты и лицензии</a></li>
                 </ul>
             </nav>
-            <div class="header__controls">
-                <div class="header__actions">
-                    <button class="header__actions-button">
-                        <img src="../images/icons/shopping bag.svg" alt="">
-                    </button>
-                </div>
+            <div class="header__actions">
+                <button class="header__actions-button" title="Корзина" aria-label="Корзина">
+                    <img src="../images/icons/shopping bag.svg" alt="">
+                </button>
             </div>
         </div>
     </header>

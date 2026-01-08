@@ -1,4 +1,26 @@
 .header {
-    padding: 100px 100px 0px 100px;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    background-color: var(--nav-color);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__title {
+    margin-right: 50px;
+}
+
+.header__menu {
+    flex-grow: 1;
+}
+
+.header__actions-button {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
 }
