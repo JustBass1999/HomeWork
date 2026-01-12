@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: var(--nav-color);
+    max-width: 1920px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    min-width: var(--container-width);
+    min-height: 90px;
+}
+
+.header__burger {
+    margin: 0 auto;
+}
+
+.header__burger-icon {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.header__title {
+    margin-right: 50px;
+    margin-left: 50px;
+    min-width: 183px;
+    min-height: 77px;
+}
+
+.header__menu {
+
+}
+
+.header__order {
+    min-width: 36px;
+    min-height: 36px;
+    margin-left: 60px;
+}
