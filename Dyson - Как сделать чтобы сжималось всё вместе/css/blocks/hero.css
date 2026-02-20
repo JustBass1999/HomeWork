@@ -1,0 +1,54 @@
+.hero {
+  max-width: 1920px;
+  max-height: 850px;
+}
+
+.hero__header {
+  display: flex;
+  background: var(--bg-grey);
+}
+
+.hero__content {
+  max-width: 923px;
+  max-height: 850px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+  padding-top: 250px;
+}
+
+.hero__title {
+  font-family: var(--second-family);
+  font-size: 46px;
+  line-height: 103%;
+  color: var(--text-dark);
+  max-width: 556px;
+  max-height: 94px;
+  margin-bottom: 40px;
+}
+
+.hero__description {
+  max-width: 554px;
+  font-family: var(--font-family);
+  font-size: 26px;
+  line-height: 130%;
+  color: var(--text-dark);
+  margin-bottom: 90px;
+}
+
+.hero__button {
+  border-radius: 3px;
+  width: 235px;
+  height: 64px;
+  background-color: var(--review-color);
+}
+
+.hero__button-info {
+  font-family: var(--font-family);
+  font-size: 24px;
+  color: var(--text-light);
+}
+
+.hero__image {
+  height: 100%;
+}

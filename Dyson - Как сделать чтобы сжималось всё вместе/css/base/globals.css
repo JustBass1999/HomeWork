@@ -1,0 +1,42 @@
+.page {
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.container {
+    width: min(var(--container-width), 100% - var(--container-padding) * 2);
+    margin-inline: auto;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 1px solid var(--review-color);
+    outline-offset: 2px;
+}
+
+.main {
+  padding-top: 90px;
+}
+
+.main__title {
+  font-family: var(--second-family);
+  font-size: 42px;
+  line-height: 103%;
+}
+
+/* summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+ */
