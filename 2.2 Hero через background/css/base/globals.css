@@ -1,0 +1,58 @@
+.page {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--main-color);
+  height: 100%;
+}
+
+.page__body {
+  min-width: 390px;
+}
+
+.container {
+  width: min(var(--container-width), 100% - var(--container-padding-main) * 2);
+  margin-inline: auto;
+}
+
+.section {
+  max-width: 1920px;
+  max-height: 850px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 1px solid var(--review-color);
+  outline-offset: 2px;
+}
+
+.main {
+  margin-top: 90px;
+}
+
+/* @media (width<=768px) {
+  .main {
+    margin-top: 75px;
+  }
+} */
+
+.main__title {
+  font-family: var(--second-family);
+  font-size: 42px;
+  line-height: 103%;
+}
+
+
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
