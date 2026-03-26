@@ -1,0 +1,25 @@
+:root {
+    /* container */
+    --container-width: 1360px;
+    --container-padding: 280px;
+    --container-width-1600: 1200px;
+
+    /* font-family */
+    --font-family: "Open-Sans", sans-serif;
+    --second-family: "NAMU", sans-serif;
+
+    /* colors */
+    --main-color: #fff;
+    --accent-color: #ff00ff;
+    --available-color: #68AE5C;
+    --button-cover: #C5358C;
+    --bg-dark: #000000;
+    --bg-grey: #DDDDDD;
+    --bg-light: #fff;
+    --text-dark: #000000;
+    --text-light: #fff;
+    --secondary-color: #c9c69b;
+    --disable-color: #5d5d56;
+
+    --transition-time: 0.2s
+}
