@@ -1,0 +1,169 @@
+.FAQ {
+    padding: 150px 0 150px;
+    background: #f8f8f8;
+}
+
+.FAQ {
+    padding: 150px 0 150px;
+    background: #f8f8f8;
+}
+
+@media (width<=768px) {
+    .FAQ {
+        padding: 100px 0 100px;
+    }
+}
+
+@media (width<=540px) {
+    .FAQ {
+        padding: 70px 0 70px;
+    }
+}
+
+@media (width<=390px) {
+    .FAQ {
+        padding: 46px 0 46px;
+    }
+}
+
+.FAQ__wrapper {
+    max-width: 1360px;
+    margin-inline: 280px;
+}
+
+@media (width<=1600px) {
+    .FAQ__wrapper {
+        margin-inline: 120px;
+    }
+}
+
+@media (width<=992px) {
+    .FAQ__wrapper {
+        margin-inline: 180px;
+    }
+}
+
+@media (width<=768px) {
+    .FAQ__wrapper {
+        margin-inline: 70px;
+    }
+}
+
+@media (width<=390px) {
+    .FAQ__wrapper {
+        margin-inline: 20px;
+    }
+}
+
+.FAQ__title {
+    margin-bottom: 59px;
+}
+
+@media (width<=390px) {
+    .FAQ__title {
+        margin-bottom: 40px;
+    }
+}
+
+.FAQ__accordeon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FAQ__title-medium {}
+
+.faq__title-cross {
+    display: inline-block;
+}
+
+@media (width<=992px) {
+    .faq__title-cross svg {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media (width<=390px) {
+    .faq__title-cross svg {
+        width: 25.5px;
+        height: 25.5px;
+    }
+}
+
+.FAQ__text {
+    max-width: 1150px;
+}
+
+@media (width<=1400px) {
+    .FAQ__text {
+        max-width: 800px;
+    }
+}
+
+@media (width<=768px) {
+    .FAQ__text {
+        max-width: 800px;
+        font-size: 14px;
+    }
+}
+
+@media (width<=992px) {
+    .FAQ__text {
+        max-width: 545px;
+    }
+
+    .FAQ__title-medium {
+        font-size: 16px;
+        max-width: 545px;
+    }
+}
+
+@media (width<=540px) {
+    .FAQ__text {
+        max-width: 340px;
+    }
+}
+
+@media (width<=540px) {
+    .FAQ__text {
+        font-size: 12px;
+    }
+}
+
+@media (width<=390px) {
+    .FAQ__title-medium {
+        font-size: 13px;
+    }
+}
+
+.faq__article {
+    border-bottom: 1px solid #ababab;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq__article:first-child {
+    border-bottom: 1px solid #ababab;
+    border-top: 1px solid #ababab;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 34px 0 34px;
+}
+
+.FAQ__article:first-child {
+    border-top: 1px solid #ababab;
+}
+
+.FAQ__article-text {
+    font-size: 20px;
+    line-height: 150%;
+    color: #111;
+    padding: 34px 0 34px;
+}

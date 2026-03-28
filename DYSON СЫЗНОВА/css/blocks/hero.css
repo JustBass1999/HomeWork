@@ -81,34 +81,6 @@
     }
 }
 
-/* @media (width<1920px) {
-    .hero__image {
-        max-width: clamp(24.375rem, 100vw, 120rem);
-        max-height: clamp(24.5rem, 17.203rem + 29.93vw, 53.125rem);
-    }
-}
-
-@media (width<=992px) {
-    .hero__image {
-        background-position: 80%;
-    }
-}
-
-@media (width<=768px) {
-    .hero__image {
-        background-position: 60%;
-    }
-}
-
-@media (width<=390px) {
-    .hero__image {
-        background-image: url(../../images/banner-mini.png);
-        background-size: cover;
-        max-width: 280px;
-        max-height: 274px;
-    }
-} */
-
 .hero__content {
     max-width: 556px;
     width: 100%;

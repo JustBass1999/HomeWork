@@ -21,6 +21,12 @@
 }
 
 
+@media (width <=992px) {
+  .main__title {
+    font-size: 38px;
+  }
+}
+
 @media (width <=540px) {
   .main__title {
     font-size: 34px;
